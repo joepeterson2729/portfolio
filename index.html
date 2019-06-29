@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Joe Peterson Landing Page / Portfolio</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome CSS-->
+  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+  <!-- Google fonts - Montserrat for headings, Cardo for copy-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Cardo:400,400italic,700">
+  <!-- Lightbox-->
+  <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+  <!-- Custom stylesheet - for your changes-->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="img/favicon.png">
+  <!-- Leaflet CSS - For the map-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+
+</head>
+
+<body>
+  <section id="intro" style="background-image: url('img/giphy.gif');" class="intro">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="container clearfix">
+        <div class="row">
+          <div class="col-lg-8 col-md-12 mx-auto">
+            <p class="italic">Life is not about how many times you fall. It is about how many times you get up</p>
+            <h5>-Joe Peterson</h5>
+            <p class="italic"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- intro end-->
+  <!-- navbar-->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container"><a href="#intro" class="navbar-brand link-scroll"><img src="img/jp.jpg" alt=""
+            class="img-fluid"></a>
+        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+          class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link link-scroll">About </a></li>
+            <li class="nav-item"><a href="#services" class="nav-link link-scroll">Services</a></li>
+            <li class="nav-item"><a href="#portfolio" class="nav-link link-scroll">Portfolio</a></li>
+            <li class="nav-item"><a href="#text" class="nav-link link-scroll">Experience</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- about-->
+  <section id="about" class="text">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="heading">About me</h2>
+          <p class="lead"></p>
+          <p> I am currently residing in Nashville TN. I am new to the tech industry and I am excited about gaining new
+            knowledge and growing my skills. </p>
+          <p> I am a Army veteran and have traveled a lot and hope to do more in the future. I enjoy new challanges and
+            like to solve complex issues.</p>
+        </div>
+        <div class="col-lg-5 mx-auto">
+          <p><img src="img/still.jpg" alt="" class="img-fluid rounded-circle"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about end-->
+  <!-- Services-->
+  <section id="services" style="background-color: #eee">
+    <div class="container">
+      <div class="row services">
+        <div class="col-lg-12">
+          <h2 class="heading">Services</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="box">
+                <div class="icon"><i class="fa fa-desktop"></i></div>
+                <h5>Webdesign</h5>
+                <p>I can bring your ideas or concepts to life with dynamic web pages and fluid functionality</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box">
+                <div class="icon"><i class="fa fa-check"></i></div>
+                <h5>Optimize</h5>
+                <p>Have a old webpage? Looking to revamp your current layout? I can help with that!</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box">
+                <div class="icon"><i class="fa fa-globe"></i></div>
+                <h5>Business Consulting</h5>
+                <p>Are you sure you are in the proper business structure that suits your needs? You are in the right
+                  spot!</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Services end-->
+
+  <!-- Portfolio / gallery-->
+  <section id="portfolio" class="gallery">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-md-12 col-lg-8">
+              <h2 class="heading">Portfolio</h2>
+              <p> </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="box"><a href="img/myportfolio1.png" data-lightbox="image-1"
+                  data-title="Some footer information" class="has-border"><img src="img/myportfolio1.png" alt="image"
+                    class="img-fluid"></a></div>
+            </div>
+            <div class="col-md-4">
+              <div class="box"><a href="img/myportfolio2.png" data-lightbox="image-1"
+                  data-title="Some footer information" class="has-border"><img src="img/myportfolio2.png" alt="image"
+                    class="img-fluid"></a></div>
+            </div>
+            <div class="col-md-4">
+              <div class="box"><a href="img/myportfolio3.png" data-lightbox="image-1"
+                  data-title="Some footer information" class="has-border"><img src="img/myportfolio3.png" alt="image"
+                    class="img-fluid"></a></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="box"><a href="img/myportfolio4.png" data-lightbox="image-1"
+                  data-title="Some footer information" class="has-border"><img src="img/myportfolio4.png" alt="image"
+                    class="img-fluid"></a></div>
+            </div>
+            <div class="col-md-4">
+              <div class="box"><a href="img/myportfolio5.png" data-lightbox="image-1"
+                  data-title="Some footer information" class="has-border"><img src="img/myportfolio5.png" alt="image"
+                    class="img-fluid"></a></div>
+            </div>
+            <div class="col-md-4">
+              <div class="box"><a href="img/myportfolio6.png" data-lightbox="image-1"
+                  data-title="Some footer information" class="has-border"><img src="img/myportfolio6.png" alt="image"
+                    class="img-fluid"></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!-- Portfolio / gallery end-->
+  <!-- text page-->
+  <section id="text" class="text-page section-inverse">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="heading">Experience </h2>
+          <div class="row">
+            <div class="col-md-6">
+              <p> I am currently working with HTML, CSS, Javascript, JQuery, APIS, NodeJS </p>
+
+            </div>
+            <div class="col-md-6">
+              <p>I am enrolled in the Coding Bootcamp at Vanderbilt University with a completion date of Oct 2019. We
+                are rapidly learing new technologies daily. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- text page end-->
+  <!-- contact-->
+  <section id="contact" style="background-color: #fff;" class="text-page pb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="heading">Contact</h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <form id="contact-form" method="post" action="#" class="contact-form">
+                <div class="controls">
+
+                  <div class="col-lg-6">
+
+                    <a href="https://github.com/joepeterson2729"> Github </a>
+                    <a href="joe.peterson2729@gmail.com"> Email</a>
+                    <a href="https://www.linkedin.com/in/joe-peterson-972a0148/">Linkedin</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <div class="container">
+    <div class="row copyright">
+      <div class="col-md-6">
+        <p class="mb-md-0 text-center text-md-left">&copy;2019 Joe Peterson/Hoopty Enterprises Inc</p>
+      </div>
+
+    </div>
+  </div>
+  </footer>
+  <!-- JavaScript files-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+  <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+  <script src="js/front.js"></script>
+</body>
+
+</html>
